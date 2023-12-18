@@ -1,0 +1,46 @@
+---
+layout: default
+id: programme
+style: true
+---
+{% if site.data.programme %}
+{% comment %}
+<div class="notice">
+    This is where we can place a notice to participants if need be.
+</div>
+{% endcomment %}
+<table>
+    <tbody>
+        {% for item in site.data.programme %}
+        <tr class="{{ item.type }}">
+            <td class="time">{{ item.start }}</td>
+            <td>
+                {% if item.type == 'invited' %}
+                <span class="type">Invited lecture:</span>
+                {% endif %}
+                <a class="title" {% if item.abstract %}href="#abstract-{{ forloop.index }}"{% endif %}>{{ item.title }}</a> {% if item.link %}<span class="paper-link">(<a href={{ item.link }}>link to paper</a>)</span>{% endif %}
+                {% if item.type == 'invited' or item.type == 'online' or item.type == 'in-person' %}
+                <div class="speaker">
+                {% if item.type == 'invited' %}
+                <a href="speakers.html#{{ item.speaker }}">
+                ({{ site.data.speakers[item.speaker].name }})
+                </a>
+                {% endif %}
+                {% if item.type == 'online' or item.type == 'in-person' %}
+                ({{ item.authors }})
+                {% endif %}
+                </div>
+                {% if item.abstract %}
+                <div class="abstract" id="abstract-{{ forloop.index }}">
+                {{ item.abstract }}
+                </div>
+                {% endif %}
+                {% endif %}
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% else %}
+<p>TBD.</p>
+{% endif %}

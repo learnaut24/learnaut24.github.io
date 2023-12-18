@@ -1,0 +1,48 @@
+.affiliation {
+    font-style: italic;
+}
+
+.photo {
+    float: right;
+    border-radius: 5px;
+    margin-left: 20px;
+    width: 180px;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+.speaker {
+    margin-top: 30px;
+}
+
+.speaker:target {
+    border: 1px dotted black;
+    border-radius: 5px;
+    padding: 10px;
+    animation: bounce 1s;
+}
+
+.cancelled {
+    border: 1px solid red;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 60%;
+    background-color: lightyellow;
+    margin-top: 0.5em;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-20px);
+	}
+
+	80% {
+		transform: translateY(-10px);
+	}
+}

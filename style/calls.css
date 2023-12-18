@@ -1,0 +1,35 @@
+#specifics {
+    display: table;
+    width: 100%;
+}
+
+#specifics > div {
+    display: table-row;
+}
+
+#specifics > div > div {
+    display: table-cell;
+}
+
+#specifics > div > div:first-child {
+    padding-right: 20px;
+}
+
+#specifics > div > div:last-child {
+    padding-left: 20px;
+    width: 38%;
+}
+
+#dates > ul,
+#topics > ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+#dates > h3 {
+    margin-top: 0;
+}
+
+.struck {
+    text-decoration: line-through;
+}

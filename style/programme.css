@@ -1,0 +1,70 @@
+table, td {
+    border: 1px dotted black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 1em;
+}
+
+td {
+    padding: 10px;
+}
+
+.time {
+    text-align: right;
+}
+
+.organisation .title, .break .title {
+    font-style: italic;
+}
+
+.type {
+    font-weight: bold;
+}
+
+a.title {
+    cursor: inherit;
+    color: inherit;
+}
+
+a.title:hover {
+    text-decoration: none;
+}
+
+a[href].title {
+    cursor: pointer;
+    color: blue;
+}
+
+a[href].title:hover {
+    text-decoration: underline;
+}
+
+.speaker {
+    padding: 5px;
+}
+
+.abstract {
+    display: none;
+    padding: 5px;
+    font-style: italic;
+    max-width: 800px;
+}
+
+.abstract:target {
+    display: inherit;
+}
+
+.notice {
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px dotted black;
+    border-radius: 7px;
+    background-color: #DDF;
+}
+
+.paper-link {
+    float: right;
+}

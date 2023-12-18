@@ -1,0 +1,16 @@
+---
+id: accepted-papers
+layout: default
+---
+<h2>Accepted papers</h2>
+<ul>
+    {% for paper in site.data.accepted-papers %}
+    <li>
+        <em>{{ paper.title }}</em>
+        <br/> by 
+        {% for author in paper.authors -%}
+        {%- if forloop.first == false %}{%- if forloop.last %} and {% else %}, {% endif %}{% endif -%}{{ author }}
+        {%- endfor %}
+    </li>
+    {% endfor %}
+</ul>
