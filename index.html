@@ -27,3 +27,10 @@ id: index
     Additionally, the Program Committee will select a subset of the abstracts for oral presentation.
     At least one author of each accepted abstract is expected to represent it at the workshop.
 </p>
+
+<h2>Previous editions</h2>
+<ul>
+    {% for edition in site.data.editions %}
+    <li><a href="{{ edition.url }}">{{ edition.desc }}</a></li>
+    {% endfor %}
+</ul>
