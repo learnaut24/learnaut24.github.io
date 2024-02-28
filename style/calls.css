@@ -20,16 +20,25 @@
     width: 38%;
 }
 
-#dates > ul,
-#topics > ul {
-    margin: 0;
-    padding-left: 20px;
-}
-
-#dates > h3 {
-    margin-top: 0;
+#instructions > h3 {
+    text-decoration: underline;
 }
 
 .struck {
     text-decoration: line-through;
+}
+
+/* On smaller screens: don't put things side by side. */
+@media only screen and (max-width:700px){
+#specifics, #specifics > div, #specifics > div > div {
+    display: block;
+    width: 100%;
+}
+#specifics > div > div:first-child {
+    padding-right: 0px;
+}
+#specifics > div > div:last-child {
+    padding-left: 0px;
+    width: 100%;
+}
 }
