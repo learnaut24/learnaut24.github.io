@@ -1,3 +1,6 @@
+- name: Dana Angluin
+  affiliation: Yale University, United States
+
 - name: Johanna Björklund
   affiliation: Umeå University, Sweden
 
@@ -12,6 +15,12 @@
 
 - name: Jurriaan Rot
   affiliation: Radboud University Nijmegen, the Netherlands
+
+- name: Ariadna Quattoni
+  affiliation: Universitat Politècnica de Catalunya, Spain
+
+- name: Sergio Yovine
+  affiliation: Universidad ORT, Uruguay
 
 - name: <i>... More to come ...</i>
   affiliation: soon
