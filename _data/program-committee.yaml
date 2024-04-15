@@ -16,8 +16,14 @@
 - name: Falk Howar
   affiliation: TU Dortmund, Germany
 
+- name: Maude Lizaire
+  affiliation: Mila, Canada
+
 - name: Andrea Pferscher
   affiliation: University of Oslo, Norway
+
+- name: Guillaume Rabusseau
+  affiliation: McGill University, Canada
 
 - name: Jurriaan Rot
   affiliation: Radboud University Nijmegen, the Netherlands
@@ -27,6 +33,3 @@
 
 - name: Sergio Yovine
   affiliation: Universidad ORT, Uruguay
-
-- name: <i>... More to come ...</i>
-  affiliation: soon
