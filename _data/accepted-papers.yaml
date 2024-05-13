@@ -1,0 +1,18 @@
+- title: A Theoretical Analysis of the Incremental Counting Ability of LSTM in Finite Precision
+  authors: [Volodimir Mitarchuk, Rémi Eyraud]
+- title: Analyzing constrained LLM through PDFA-learning
+  authors: [Matías Carrasco, Franz Mayr, Sergio Yovine, Johny Kidd, Martín Iturbide, Juan da Silva, Alejo Garat]
+- title: Database-assisted automata learning
+  authors: [Hielke Walinga, Robert Baumgartner, Sicco Verwer]
+- title: 'DFAMiner: Mining minimal separating DFAs from labelled samples'
+  authors: [Daniele Dell'Erba, Yong Li, Sven Schewe]
+- title: Learning Closed Signal Flow Graphs
+  authors: [Ekaterina Piotrovskaya, Leo Lobski, Fabio Zanasi]
+- title: Learning EFSM Models with Registers in Guards
+  authors: [German Vega, Michael Foster, Roland Groz, Neil Walkinshaw, Catherine Oriat, Adenilso Simao]
+- title: Output-decomposed Learning of Mealy Machines
+  authors: [Rick Koenders, Joshua Moerman]
+- title: PDFA Distillation via String Probability Queries
+  authors: [Robert Baumgartner, Sicco Verwer]
+- title: Small Test Suites for Active Automata Learning
+  authors: [Loes Kruger, Sebastian Junges, Jurriaan Rot]
