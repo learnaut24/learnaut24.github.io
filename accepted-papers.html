@@ -7,6 +7,7 @@ layout: default
     {% for paper in site.data.accepted-papers %}
     <li>
         <em>{{ paper.title }}</em>
+        {%- if paper.url %} <a href="{{ paper.url }}">[link]</a>{% endif %}
         <br/> by 
         {% for author in paper.authors -%}
         {%- if forloop.first == false %}{%- if forloop.last %} and {% else %}, {% endif %}{% endif -%}{{ author }}
