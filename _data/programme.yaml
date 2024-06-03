@@ -101,7 +101,7 @@
   type: 'break'
   title: "Coffee break ☕️"
 - start: '16:00'
-  type: 'in-person'
+  type: 'online'
   title: 'A Theoretical Analysis of the Incremental Counting Ability of LSTM in Finite Precision'
   authors: [Volodimir Mitarchuk, Rémi Eyraud]
   abstract: |
