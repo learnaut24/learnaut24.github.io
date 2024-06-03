@@ -6,13 +6,14 @@
   authors: [Hielke Walinga, Robert Baumgartner, Sicco Verwer]
 - title: 'DFAMiner: Mining minimal separating DFAs from labelled samples'
   authors: [Daniele Dell'Erba, Yong Li, Sven Schewe]
+  url: https://arxiv.org/abs/2405.18871
 - title: Learning Closed Signal Flow Graphs
   authors: [Ekaterina Piotrovskaya, Leo Lobski, Fabio Zanasi]
 - title: Learning EFSM Models with Registers in Guards
   authors: [German Vega, Michael Foster, Roland Groz, Neil Walkinshaw, Catherine Oriat, Adenilso Simao]
 - title: Output-decomposed Learning of Mealy Machines
   authors: [Rick Koenders, Joshua Moerman]
-  url: https://arxiv.org/pdf/2405.08647
+  url: https://arxiv.org/abs/2405.08647
 - title: PDFA Distillation via String Probability Queries
   authors: [Robert Baumgartner, Sicco Verwer]
 - title: Small Test Suites for Active Automata Learning

@@ -1,0 +1,134 @@
+- start: '9:00'
+  type: 'break'
+  title: 'Registration'
+- start: '9:10'
+  type: 'organisation'
+  title: 'Opening remarks'
+- start: '9:15'
+  type: 'invited'
+  title: "TBA"
+  speaker: 'TBA'
+  abstract: |
+    See invited speakers
+- start: '10:00'
+  type: 'break'
+  title: "Coffee break ☕️"
+- start: '10:30'
+  type: 'in-person'
+  title: 'Small Test Suites for Active Automata Learning'
+  authors: [Loes Kruger, Sebastian Junges, Jurriaan Rot]
+  link: https://link.springer.com/chapter/10.1007/978-3-031-57249-4_6
+  abstract: |
+    A bottleneck in modern active automata learning is to test whether a hypothesized Mealy machine correctly describes the system under learning.
+    The search space for possible counterexamples is given by so-called test suites, consisting of input sequences that have to be checked to decide whether a counterexample exists.
+    We show that significantly smaller test suites suffice under reasonable assumptions on the structure of the black box.
+    These smaller test suites help to refute false hypotheses during active automata learning, even when the assumptions do not hold.
+    We combine multiple test suites using a multi-armed bandit setup that adaptively selects a test suite.
+    An extensive empirical evaluation shows the efficacy of our approach. For small to medium-sized models, the performance gain is limited.
+    However, the approach allows learning models from large, industrial case studies that were beyond the reach of known methods.
+- start: '10:55'
+  type: 'in-person'
+  title: 'Output-decomposed Learning of Mealy Machines'
+  authors: [Rick Koenders, Joshua Moerman]
+  link: https://arxiv.org/abs/2405.08647
+  abstract: |
+    We present an active automata learning algorithm which learns a decomposition of a finite state machine, based on projecting onto individual outputs.
+    This is dual to a recent compositional learning algorithm by Labbaf et al.
+    When projecting the outputs to a smaller set, the model itself is reduced in size.
+    By having several such projections, we do not lose any information and the full system can be reconstructed.
+    Depending on the structure of the system this reduces the number of queries drastically, as shown by a preliminary evaluation of the algorithm.
+- start: '11:20'
+  type: 'in-person'
+  title: 'Analyzing constrained LLM through PDFA-learning'
+  authors: [Matías Carrasco, Franz Mayr, Sergio Yovine, Johny Kidd, Martín Iturbide, Juan da Silva, Alejo Garat]
+  abstract: |
+    We define a congruence that copes with null next-symbol probabilities that arise when the output of a language model is constrained by some means during text generation.
+    We develop an algorithm for efficiently learning the quotient with respect to this congruence and evaluate it on case studies for analyzing statistical properties of LLM.
+- start: '11:45'
+  type: 'in-person'
+  title: 'Database-assisted automata learning'
+  authors: [Hielke Walinga, Robert Baumgartner, Sicco Verwer]
+  abstract: |
+    This paper presents DAALder (Database-Assisted Automata Learning, with Dutch suffix from leerder ), a new algorithm for learning state machines, or automata, specifically deterministic finite-state automata (DFA).
+    When learning state machines from log data originating from software systems, the large amount of log data can pose a challenge.
+    Conventional state merging algorithms cannot efficiently deal with this, as they require a large amount of memory.
+    To solve this, we utilized database technologies to efficiently query a big trace data set and construct a state machine from it, as databases allow to save large amounts of data on disk while still being able to query it efficiently.
+    Building on research in both active learning and passive learning, the proposed algorithm is a combination of the two.
+    It can quickly find a characteristic set of traces from a database using heuristics from a state merging algorithm.
+    Experiments show that our algorithm has similar performance to conventional state merging algorithms on large datasets, but requires far less memory.
+- start: '12:10'
+  type: 'in-person'
+  title: 'DFAMiner: Mining minimal separating DFAs from labelled samples'
+  authors: [Daniele Dell'Erba, Yong Li, Sven Schewe]
+  link: https://arxiv.org/abs/2405.18871
+  abstract: |
+    We propose DFAMiner, a passive learning tool for learning minimal separating deterministic finite automata (DFA) from a set of labelled samples.
+    Separating automata are an interesting class of automata that occurs generally in regular model checking and has raised interest in foundational questions of parity game solving.
+    We first propose a simple and linear-time algorithm that incrementally constructs a three-valued DFA (3DFA) from a set of labelled samples given in the usual lexicographical order.
+    This 3DFA has accepting and rejecting states as well as don't-care states, so that it can exactly recognise the labelled examples.
+    We then apply our tool to mining a minimal separating DFA for the labelled samples by minimising the constructed automata via a reduction to solving SAT problems.
+    Empirical evaluation shows that our tool outperforms current state-of-the-art tools significantly on standard benchmarks for learning minimal separating DFAs from samples.
+    Progress in the efficient construction of separating DFAs can also lead to finding the lower bound of parity game solving, where we show that DFAMiner can create optimal separating automata for simple languages with up to 7 colours.
+    Future improvements might offer inroads to better data structures.
+- start: '12:35'
+  type: 'break'
+  title: "Lunch break 🍽️"
+- start: '14:00'
+  type: 'invited'
+  title: "TBA"
+  speaker: 'TBA'
+  abstract: |
+    See invited speakers
+- start: '14:45'
+  type: 'in-person'
+  title: 'Learning EFSM Models with Registers in Guards'
+  authors: [German Vega, Michael Foster, Roland Groz, Neil Walkinshaw, Catherine Oriat, Adenilso Simao]
+  abstract: |
+    This paper presents an active inference method for Extended Finite State Machines, where inputs and outputs are parametrized, and transitions can be conditioned by guards involving input parameters and internal variables called registers.
+    The method applies to (software) systems that cannot be reset, so it learns an EFSM model of the system on a single trace.
+- start: '15:10'
+  type: 'in-person'
+  title: 'PDFA Distillation via String Probability Queries'
+  authors: [Robert Baumgartner, Sicco Verwer]
+  abstract: |
+    Probabilistic deterministic finite automata (PDFA) are discrete event systems modeling conditional probabilities over languages:
+    Given an already seen sequence of tokens they return the probability of tokens of interest to appear next.
+    These types of models have gained interest in the domain of explainable machine learning, where they are used as surrogate models for neural networks trained as language models.
+    In this work we present an algorithm to distill PDFA from neural networks.
+    Our algorithm is a derivative of the L# algorithm and capable of learning PDFA from a new type of query, in which the algorithm infers conditional probabilities from the probability of the queried string to occur.
+    We show its effectiveness on a recent public dataset by distilling PDFA from a set of trained neural networks.
+- start: '15:35'
+  type: 'break'
+  title: "Coffee break ☕️"
+- start: '16:00'
+  type: 'in-person'
+  title: 'A Theoretical Analysis of the Incremental Counting Ability of LSTM in Finite Precision'
+  authors: [Volodimir Mitarchuk, Rémi Eyraud]
+  abstract: |
+    Since the introduction of the LSTM (Long Short-Term Memory), this type of Recurrent
+    Neural Networks has been the subject of extensive studies to determine its expressiveness.
+    This work is an attempt to fill the gap between the observations made during empirical studies and the theory.
+    We propose in this article to study theoretically the functioning and the limits of the, empirically observed, LSTMs counting mechanism.
+    Our results show that, in finite precision, LSTMs have a limited ability to retrieve the counting information it has deposited in its carry.
+    This reveals an asymmetry in the information storage and retrieval mechanisms in LSTMs.
+- start: '16:25'
+  type: 'in-person'
+  title: 'Learning Closed Signal Flow Graphs'
+  authors: [Ekaterina Piotrovskaya, Leo Lobski, Fabio Zanasi]
+  abstract: |
+    We develop a learning algorithm for closed signal flow graphs - a graphical model of signal transducers.
+    The algorithm relies on the translation between closed signal flow graphs and weighted finite automata on a singleton alphabet.
+    We demonstrate that this procedure results in a genuine reduction of complexity:
+    our algorithm fares better than existing learning algorithms for weighted automata restricted to the case of singleton alphabet.
+- start: '16:50'
+  type: 'invited'
+  title: "TBA"
+  speaker: 'TBA'
+  abstract: |
+    See invited speakers
+- start: '17:35'
+  type: 'organisation'
+  title: 'Closing remarks'
+- start: '17:40'
+  type: 'break'
+  title: 'End 🍕🍻'

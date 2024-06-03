@@ -27,7 +27,9 @@ style: true
                 </a>
                 {% endif %}
                 {% if item.type == 'online' or item.type == 'in-person' %}
-                ({{ item.authors }})
+                ({% for author in item.authors -%}
+                {%- if forloop.first == false %}{%- if forloop.last %} and {% else %}, {% endif %}{% endif -%}{{ author }}
+                {%- endfor %})
                 {% endif %}
                 </div>
                 {% if item.abstract %}
