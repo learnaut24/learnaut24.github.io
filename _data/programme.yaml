@@ -7,9 +7,9 @@
 - start: '9:15'
   type: 'invited'
   title: "TBA"
-  speaker: 'TBA'
+  speaker: 'bernhard'
   abstract: |
-    See invited speakers
+    Title and abstract coming soon
 - start: '10:00'
   type: 'break'
   title: "Coffee break ☕️"
@@ -76,9 +76,9 @@
 - start: '14:00'
   type: 'invited'
   title: "TBA"
-  speaker: 'TBA'
+  speaker: 'martin'
   abstract: |
-    See invited speakers
+    Title and abstract coming soon
 - start: '14:45'
   type: 'in-person'
   title: 'Learning EFSM Models with Registers in Guards'
@@ -123,9 +123,9 @@
 - start: '16:50'
   type: 'invited'
   title: "TBA"
-  speaker: 'TBA'
+  speaker: 'ryan'
   abstract: |
-    See invited speakers
+    Title and abstract coming soon
 - start: '17:35'
   type: 'organisation'
   title: 'Closing remarks'
