@@ -6,10 +6,17 @@
   title: 'Opening remarks'
 - start: '9:15'
   type: 'invited'
-  title: "TBA"
+  title: 'Learn to Test - Automata Learning for Formal Testing'
   speaker: 'bernhard'
   abstract: |
-    Title and abstract coming soon
+    In this talk, we will provide an overview of our research in automata learning for the testing of black-box systems, i.e., systems without access to source code.
+    Automata learning, also known as grammar inference or model mining, infers finite-state models from observations at the interface of a system.
+    Our tools are capable of learning deterministic, stochastic, and timed models in the form of Mealy machines, MDPs, and Timed Automata.
+    These learned models can be used to automatically test system components externally.
+    Recent application domains include IoT protocols (Bluetooth LE, MQTT), cars (driver models, autonomous driving), and reinforcement learning.
+    Most recently, we are investigating the synergies between machine learning and automata learning in both directions, i.e., machine learning to assist automata learning and automata learning to assist machine learning.
+    For easier integration with machine-learning frameworks, we have developed AALpy, an open-source Active Automata Learning library for Python:
+    https://github.com/DES-Lab/AALpy
 - start: '10:00'
   type: 'break'
   title: "Coffee break ☕️"
