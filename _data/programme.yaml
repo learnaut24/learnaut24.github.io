@@ -89,7 +89,8 @@
 - start: '14:45'
   type: 'in-person'
   title: 'Learning EFSM Models with Registers in Guards'
-  authors: [German Vega, Michael Foster, Roland Groz, Neil Walkinshaw, Catherine Oriat, Adenilso Simao]
+  authors: [Germán Vega, Michael Foster, Roland Groz, Neil Walkinshaw, Catherine Oriat, Adenilso Simão]
+  link: http://arxiv.org/abs/2406.07040
   abstract: |
     This paper presents an active inference method for Extended Finite State Machines, where inputs and outputs are parametrized, and transitions can be conditioned by guards involving input parameters and internal variables called registers.
     The method applies to (software) systems that cannot be reset, so it learns an EFSM model of the system on a single trace.
