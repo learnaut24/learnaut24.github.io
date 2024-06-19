@@ -56,6 +56,7 @@
   type: 'in-person'
   title: 'Database-assisted automata learning'
   authors: [Hielke Walinga, Robert Baumgartner, Sicco Verwer]
+  link: https://arxiv.org/abs/2406.07208
   abstract: |
     This paper presents DAALder (Database-Assisted Automata Learning, with Dutch suffix from leerder ), a new algorithm for learning state machines, or automata, specifically deterministic finite-state automata (DFA).
     When learning state machines from log data originating from software systems, the large amount of log data can pose a challenge.
