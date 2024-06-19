@@ -48,6 +48,7 @@
   type: 'in-person'
   title: 'Analyzing constrained LLM through PDFA-learning'
   authors: [Matías Carrasco, Franz Mayr, Sergio Yovine, Johny Kidd, Martín Iturbide, Juan da Silva, Alejo Garat]
+  link: https://arxiv.org/abs/2406.08269
   abstract: |
     We define a congruence that copes with null next-symbol probabilities that arise when the output of a language model is constrained by some means during text generation.
     We develop an algorithm for efficiently learning the quotient with respect to this congruence and evaluate it on case studies for analyzing statistical properties of LLM.
