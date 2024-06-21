@@ -114,6 +114,7 @@
   type: 'online'
   title: 'A Theoretical Analysis of the Incremental Counting Ability of LSTM in Finite Precision'
   authors: [Volodimir Mitarchuk, Rémi Eyraud]
+  link: https://hal.science/hal-04619401
   abstract: |
     Since the introduction of the LSTM (Long Short-Term Memory), this type of Recurrent
     Neural Networks has been the subject of extensive studies to determine its expressiveness.
