@@ -84,10 +84,13 @@
   title: "Lunch break 🍽️"
 - start: '14:00'
   type: 'invited'
-  title: "TBA"
+  title: 'Dumb but fast >> smart and slow: fast grammar inference on GPUs'
   speaker: 'martin'
   abstract: |
-    Title and abstract coming soon
+    GPUs are the work-horses of high-performance computing.
+    The acceleration they provide to applications compatible with their programming paradigm can surpass CPU performance by several orders of magnitude, as notably evidenced by the advancements in deep learning.
+    A significant spectrum of applications, including grammar inference has yet to reap the benefits of GPU acceleration.<br>
+    In this talk I will give an overview of recent work on GPU acceleration of grammar induction that has lead to state-of-the-art results, with orders of magnitude improvements for regular expressions and LTL (linear temporal logic, a subsystem of regular expressions, widely used in industrial verification) inference.
 - start: '14:45'
   type: 'in-person'
   title: 'Learning EFSM Models with Registers in Guards'
