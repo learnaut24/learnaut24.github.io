@@ -1,14 +1,28 @@
 bernhard:
   name: Bernhard Aichernig
-  affiliation: TU Graz, Austrian
+  affiliation: TU Graz, Austria
   website: https://aichernig.blogspot.com
-  bio: more info soon
+  bio: |
+    Talk: Learn to Test - Automata Learning for Formal Testing<br>
+    In this talk, we will provide an overview of our research in automata learning for the testing of black-box systems, i.e., systems without access to source code.
+    Automata learning, also known as grammar inference or model mining, infers finite-state models from observations at the interface of a system.
+    Our tools are capable of learning deterministic, stochastic, and timed models in the form of Mealy machines, MDPs, and Timed Automata.
+    These learned models can be used to automatically test system components externally.
+    Recent application domains include IoT protocols (Bluetooth LE, MQTT), cars (driver models, autonomous driving), and reinforcement learning.
+    Most recently, we are investigating the synergies between machine learning and automata learning in both directions, i.e., machine learning to assist automata learning and automata learning to assist machine learning.
+    For easier integration with machine-learning frameworks, we have developed AALpy, an open-source Active Automata Learning library for Python:
+    https://github.com/DES-Lab/AALpy
 
 martin:
   name: Martin Berger
   affiliation: University of Sussex, United Kingdom
   website: https://martinfriedrichberger.net
-  bio: more info soon
+  bio: |
+    Talk: Dumb but fast >> smart and slow: fast grammar inference on GPUs<br>
+    GPUs are the work-horses of high-performance computing.
+    The acceleration they provide to applications compatible with their programming paradigm can surpass CPU performance by several orders of magnitude, as notably evidenced by the advancements in deep learning.
+    A significant spectrum of applications, including grammar inference has yet to reap the benefits of GPU acceleration.<br>
+    In this talk I will give an overview of recent work on GPU acceleration of grammar induction that has lead to state-of-the-art results, with orders of magnitude improvements for regular expressions and LTL (linear temporal logic, a subsystem of regular expressions, widely used in industrial verification) inference.
 
 ryan:
   name: Ryan Cotterell

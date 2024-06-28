@@ -103,6 +103,7 @@
   type: 'in-person'
   title: 'PDFA Distillation via String Probability Queries'
   authors: [Robert Baumgartner, Sicco Verwer]
+  link: https://arxiv.org/abs/2406.18328
   abstract: |
     Probabilistic deterministic finite automata (PDFA) are discrete event systems modeling conditional probabilities over languages:
     Given an already seen sequence of tokens they return the probability of tokens of interest to appear next.
