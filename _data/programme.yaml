@@ -130,6 +130,7 @@
   type: 'in-person'
   title: 'Learning Closed Signal Flow Graphs'
   authors: [Ekaterina Piotrovskaya, Leo Lobski, Fabio Zanasi]
+  link: https://arxiv.org/abs/2407.00245
   abstract: |
     We develop a learning algorithm for closed signal flow graphs - a graphical model of signal transducers.
     The algorithm relies on the translation between closed signal flow graphs and weighted finite automata on a singleton alphabet.
@@ -137,10 +138,17 @@
     our algorithm fares better than existing learning algorithms for weighted automata restricted to the case of singleton alphabet.
 - start: '16:50'
   type: 'invited'
-  title: "TBA"
+  title: 'A formal perspective on language modeling'
   speaker: 'ryan'
   abstract: |
-    Title and abstract coming soon
+    Language models—especially the large ones—are all the rage.
+    And, for what will surely be one of only a few times in history, my field, natural language processing, is the center of world attention.
+    Indeed, there is nearly a daily stream of articles in the popular press on the most recent advances in language modeling technology.
+    In contrast to most of these articles (and most other talks on the topic), this tutorial-style presentation is not about forward progress in the area.
+    Instead, I am going to take a step back and ask simple questions about the nature of language modeling itself.
+    We will start with the most basic of questions: From a mathematical perspective, what is a language model? Next, the talk will turn philosophical.
+    With all the talk of artificial general intelligence, what can theory of computation bring to bear on the computational power of language models?
+    The talk will conclude with a statement of several recent theorems proven by my research group, the highlight of which is that no Transformer-based language model is Turing complete and, thus, we should be careful about labeling such language models, e.g., GPT-4, as general-purpose reasoners.
 - start: '17:35'
   type: 'organisation'
   title: 'Closing remarks'
